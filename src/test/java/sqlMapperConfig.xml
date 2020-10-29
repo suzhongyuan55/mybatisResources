@@ -1,0 +1,9 @@
+<configuration>
+
+  <mappers>
+    <!-- 对单个类加载 -->
+    <mapper class="com.suzy.mapper.UserMapper"/>
+    <!-- 对包进行加载 -->
+    <package name="com.suzy.mapper"/>
+  </mappers>
+</configuration>
